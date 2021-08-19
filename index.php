@@ -26,7 +26,7 @@ if ($gender == "male") { //erkek için BMR hesaplaması
     $bmr = 447.593 + (9.247 * $weight) + (3.098 * $height) - (4.330 * $age);
     $bmr=number_format($bmr,3,".",""); //bu kısımda ondalık sayıyı virgülden sonra 3 basamak yuvarlıyoruz
 
-    if ($bmr>$guess) { //büyüklük durumunda olacaklar
+    if ($bmr>$guess) {//büyüklük durumunda olacak
         echo "BMR: $bmr\n<br />Tahmin değerinden büyük";
     }
     elseif ($bmr<$guess) { //düşük olma durumunda olacaklar
