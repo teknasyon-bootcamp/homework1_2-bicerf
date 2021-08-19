@@ -38,5 +38,5 @@ if ($gender == "male") { //erkek için BMR hesaplaması
     }
 }
 else { //bu kısım cinsiyet belirtilmemesi durumunda ekrana verilir
-    echo "Cinsiyet belirtiniz!!!";
+    echo "Cinsiyet belirtiniz!!";
 }
