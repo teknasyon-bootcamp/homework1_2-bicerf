@@ -1,11 +1,12 @@
 <?php
 
-$gender = "male"; // cinsiyet (male/female)
-$weight = 55; // kilo (kg)
-$height = 170; // boy (cm)
-$age = 25; // yaş (sene)
+ $gender = "male"; // cinsiyet (male/female)
+ $weight = 55; // kilo (kg)
+ $height =100; // boy (cm)
+ $age = 22; // yaş (sene)
+ $BMR;
 
-$guess = "1470"; // Tahmin edilen değer
+ $guess ="1180.203"; // Tahmin edilen değer
 
 /**
  * Bu ödevde bazal metabolizma hesaplaması yapacağız.
